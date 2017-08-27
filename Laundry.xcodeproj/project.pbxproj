@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200B046E1CD90F102E4ABD97 /* Pods_Laundry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA2904B2804B91D4EC9700B /* Pods_Laundry.framework */; };
+		266F7CC31F520E170039F1D0 /* MainAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F7CC21F520E170039F1D0 /* MainAPIClient.swift */; };
+		266F7CC51F525BB00039F1D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 266F7CC41F525BB00039F1D0 /* GoogleService-Info.plist */; };
+		266F7CCA1F5263330039F1D0 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266F7CC91F5263330039F1D0 /* Customer.swift */; };
+		2678781E1F50D27000C5A0AC /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2678781D1F50D27000C5A0AC /* Stripe.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		269C73351F509202009A22B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C73341F509202009A22B0 /* AppDelegate.swift */; };
+		269C73371F509202009A22B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C73361F509202009A22B0 /* ViewController.swift */; };
+		269C733A1F509202009A22B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269C73381F509202009A22B0 /* Main.storyboard */; };
+		269C733C1F509202009A22B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269C733B1F509202009A22B0 /* Assets.xcassets */; };
+		269C733F1F509202009A22B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269C733D1F509202009A22B0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AA2904B2804B91D4EC9700B /* Pods_Laundry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Laundry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		266F7CC21F520E170039F1D0 /* MainAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAPIClient.swift; sourceTree = "<group>"; };
+		266F7CC41F525BB00039F1D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		266F7CC91F5263330039F1D0 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		2678781D1F50D27000C5A0AC /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stripe.framework; path = "Pods/../build/Debug-iphoneos/Stripe/Stripe.framework"; sourceTree = "<group>"; };
+		269C73311F509202009A22B0 /* Laundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laundry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269C73341F509202009A22B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		269C73361F509202009A22B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		269C73391F509202009A22B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		269C733B1F509202009A22B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269C733E1F509202009A22B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		269C73401F509202009A22B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C4DEDA0E6F5C3FFDDD2A227 /* Pods-Laundry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Laundry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Laundry/Pods-Laundry.debug.xcconfig"; sourceTree = "<group>"; };
+		F5CE022DCE8EBFBF2B5D6566 /* Pods-Laundry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Laundry.release.xcconfig"; path = "Pods/Target Support Files/Pods-Laundry/Pods-Laundry.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		269C732E1F509202009A22B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2678781E1F50D27000C5A0AC /* Stripe.framework in Frameworks */,
+				200B046E1CD90F102E4ABD97 /* Pods_Laundry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266F7CC11F520E000039F1D0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				266F7CC21F520E170039F1D0 /* MainAPIClient.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		266F7CC61F5262F40039F1D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				266F7CC91F5263330039F1D0 /* Customer.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		269C73281F509202009A22B0 = {
+			isa = PBXGroup;
+			children = (
+				266F7CC61F5262F40039F1D0 /* Models */,
+				269C73331F509202009A22B0 /* Laundry */,
+				269C73321F509202009A22B0 /* Products */,
+				9D1C810536B86C1AA2B9DCE0 /* Frameworks */,
+				42F71EB271B9170EBB0DCEAE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		269C73321F509202009A22B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				269C73311F509202009A22B0 /* Laundry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		269C73331F509202009A22B0 /* Laundry */ = {
+			isa = PBXGroup;
+			children = (
+				266F7CC41F525BB00039F1D0 /* GoogleService-Info.plist */,
+				266F7CC11F520E000039F1D0 /* Controllers */,
+				269C73461F5093D9009A22B0 /* SupportingFiles */,
+				269C73361F509202009A22B0 /* ViewController.swift */,
+				269C73341F509202009A22B0 /* AppDelegate.swift */,
+				269C73381F509202009A22B0 /* Main.storyboard */,
+			);
+			path = Laundry;
+			sourceTree = "<group>";
+		};
+		269C73461F5093D9009A22B0 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				269C733B1F509202009A22B0 /* Assets.xcassets */,
+				269C733D1F509202009A22B0 /* LaunchScreen.storyboard */,
+				269C73401F509202009A22B0 /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		42F71EB271B9170EBB0DCEAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C4DEDA0E6F5C3FFDDD2A227 /* Pods-Laundry.debug.xcconfig */,
+				F5CE022DCE8EBFBF2B5D6566 /* Pods-Laundry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D1C810536B86C1AA2B9DCE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2678781D1F50D27000C5A0AC /* Stripe.framework */,
+				0AA2904B2804B91D4EC9700B /* Pods_Laundry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		269C73301F509202009A22B0 /* Laundry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269C73431F509202009A22B0 /* Build configuration list for PBXNativeTarget "Laundry" */;
+			buildPhases = (
+				418C2FC3BA7DD4BDD400B7FB /* [CP] Check Pods Manifest.lock */,
+				269C732D1F509202009A22B0 /* Sources */,
+				269C732E1F509202009A22B0 /* Frameworks */,
+				269C732F1F509202009A22B0 /* Resources */,
+				E95318A3678801B8728F192B /* [CP] Embed Pods Frameworks */,
+				FA8D90FA1344395154EC4E98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Laundry;
+			productName = Laundry;
+			productReference = 269C73311F509202009A22B0 /* Laundry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		269C73291F509202009A22B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sandy Goss";
+				TargetAttributes = {
+					269C73301F509202009A22B0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WPH253565B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 269C732C1F509202009A22B0 /* Build configuration list for PBXProject "Laundry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 269C73281F509202009A22B0;
+			productRefGroup = 269C73321F509202009A22B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269C73301F509202009A22B0 /* Laundry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		269C732F1F509202009A22B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269C733F1F509202009A22B0 /* LaunchScreen.storyboard in Resources */,
+				266F7CC51F525BB00039F1D0 /* GoogleService-Info.plist in Resources */,
+				269C733C1F509202009A22B0 /* Assets.xcassets in Resources */,
+				269C733A1F509202009A22B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		418C2FC3BA7DD4BDD400B7FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Laundry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E95318A3678801B8728F192B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Laundry/Pods-Laundry-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Laundry/Pods-Laundry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8D90FA1344395154EC4E98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Laundry/Pods-Laundry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		269C732D1F509202009A22B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269C73371F509202009A22B0 /* ViewController.swift in Sources */,
+				266F7CC31F520E170039F1D0 /* MainAPIClient.swift in Sources */,
+				269C73351F509202009A22B0 /* AppDelegate.swift in Sources */,
+				266F7CCA1F5263330039F1D0 /* Customer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		269C73381F509202009A22B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269C73391F509202009A22B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		269C733D1F509202009A22B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269C733E1F509202009A22B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		269C73411F509202009A22B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		269C73421F509202009A22B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		269C73441F509202009A22B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4DEDA0E6F5C3FFDDD2A227 /* Pods-Laundry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WPH253565B;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
+				INFOPLIST_FILE = Laundry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.dista.Laundry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h\n#import \"Stripe/Stripe.h\"";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		269C73451F509202009A22B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5CE022DCE8EBFBF2B5D6566 /* Pods-Laundry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WPH253565B;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
+				INFOPLIST_FILE = Laundry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.dista.Laundry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h\n#import \"Stripe/Stripe.h\"";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		269C732C1F509202009A22B0 /* Build configuration list for PBXProject "Laundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269C73411F509202009A22B0 /* Debug */,
+				269C73421F509202009A22B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269C73431F509202009A22B0 /* Build configuration list for PBXNativeTarget "Laundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269C73441F509202009A22B0 /* Debug */,
+				269C73451F509202009A22B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 269C73291F509202009A22B0 /* Project object */;
+}
